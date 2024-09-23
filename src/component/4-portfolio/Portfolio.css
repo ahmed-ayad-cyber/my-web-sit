@@ -1,0 +1,38 @@
+.portfolio {
+    height: fit-content;
+}
+ .card {
+    padding: 5px;
+    border: none;
+    position: relative;
+    overflow: hidden;
+ }
+.card-caption {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    bottom: -100%;
+    padding: 1rem;
+    border-top-left-radius: 20px;
+    /* border-top-right-radius: 40px; */
+}
+
+.card:hover .card-caption {
+    bottom: 0;
+    transition: .5s;
+}
+.card .card-caption a {
+    text-decoration: none;
+    border-radius: 50rem;
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire div without stretching */
+    border-radius: 1rem;
+}

@@ -1,0 +1,39 @@
+.contact {
+    color: silver;
+    background-color: #1c1e20;
+    
+}
+.touch-content a {
+    text-decoration: none;
+    color: silver;
+}
+.touch-content .contact-now {
+    background-color: silver;
+    color: black;
+    height: fit-content;
+    border-radius: 50rem;
+    font-size: 2vw;
+    white-space: nowrap;
+}
+.contact .social {
+    text-align: center;
+}
+.contact .social svg {
+    text-decoration: none;
+    color: silver;
+    padding-left: 15px;
+    font-size: 2rem;
+    margin-bottom: 5px;
+
+}
+@media (max-width: 768px) {
+    .touch-content {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .touch-content a {
+        width: fit-content;
+        margin-bottom: 10px;
+    }
+}

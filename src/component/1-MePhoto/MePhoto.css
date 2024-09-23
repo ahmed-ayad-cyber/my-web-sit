@@ -1,0 +1,46 @@
+.mephoto {
+    background-image: url(/src/imgs/medo.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+}
+@media (max-width: 768px) {
+    .mephoto {
+        background-image: url(/src/imgs/ahmed.jpg);
+        background-size:contain;
+        background-size: 100% 60%;
+        background-color: #000000eb;
+    }
+}
+.text {
+    color: silver;
+    font-size: 4vw;
+    text-align: center;
+}
+.cont-text {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.cont-text a {
+    text-decoration: none;
+    color: black;
+    background-color: silver;
+    padding: 2%;
+    letter-spacing: 1px;
+    font-size: 3vw;
+}
+.text h1 {
+    font-size: 6vw;
+}
+.text p {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 50rem;
+    width: fit-content;
+    padding: 5px 8px;
+}
