@@ -4,14 +4,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    
+
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Protest Guerrilla", sans-serif !important; 
 }
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 

@@ -1,7 +1,6 @@
 .skills {
     background-color: #1c1e20;
     color: silver;
-
 } 
 .skills p {
     letter-spacing: 1.5px;
@@ -9,14 +8,12 @@
 .skills h1 {
     padding: 5%;
 }
-
 @media (max-width: 768px) {
     .progress-container {
         flex-direction: column; /* جعل العناصر تتكدس عمودياً */
         align-items: center; /* توسيط العناصر أفقياً */
         text-align: center; /* توسيط النصوص أيضاً */
     } 
-
     .progress-bar span {
         display: flex;
         align-items: center;
@@ -25,7 +22,6 @@
         font-weight: bold;
     } 
 }
-
 .progress-container h4 {
     text-align: center;
     color: silver;
@@ -39,40 +35,26 @@
     width:50%;
     padding: 5%;
     justify-content: space-between;
-    
 }
-.progress-bar {
-    padding-bottom: 150px;
-    height: 30px;
-    width: 100%;
-    background-color: silver;
-    padding: 0;
-    margin: 15px;
-    border-radius: 50rem;
+.progress-bars .bar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
 }
-.progress-bar span {
-    background-color: black;
-    text-align: center;
-    color: silver;
-    border-radius: 50rem;
-    height: 100%;
-    /* padding: 20px; */
+.progress-bars .bar .skill {
+  color: silver;
+  background-color: #607d8ba6;
+  height:100%;
+  width: 25%;
 }
-.progress-bar .html {
-  width: 90%;
+.progress-bars .bar .prog {
+  background-color:silver;
+  width: 75%;
+  height: 100%;
 }
-.progress-bar .js {
-  width: 80%;
-}
-.progress-bar .react {
-  width: 70%;
-}
-.progress-bar .phython {
-  width: 50%;
-}
-.progress-bar .git {
-  width: 95%;
-}
-.progress-bar .sql {
-  width: 60%;
+.inner-prog {
+  color:silver;
+  background-color: black;
 }

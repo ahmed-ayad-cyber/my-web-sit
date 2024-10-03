@@ -3,7 +3,7 @@ import './About.css'
 function About() {
     return (
       <>
-        <div className="about">
+        <div className="about py-5">
           <div className="container">
             <div className="text-about d-flex justify-content-between mt-5">
               <h1 className="mx-5">About Me</h1>

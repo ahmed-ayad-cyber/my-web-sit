@@ -1,9 +1,11 @@
 import './Skills.css'
+import {SkillsData} from './SkillsData'
 
 function Skills() {
+
     return (
       <>
-        <div className="skills mt-5">
+        <div className="skills pt-5">
           <div className="container">
             <div className="text-skills text-center">
               <h1>Skills</h1>
@@ -27,24 +29,21 @@ function Skills() {
                 </ul>
               </div>
               <div className="progress-bars d-flex flex-column align-items-start">
-                <div className="progress-bar">
-                  <span className="html">HTML & CSS & bootstrap 90%</span>
-                </div>
-                <div className="progress-bar">
-                  <span className="js">JS 80%</span>
-                </div>
-                <div className="progress-bar">
-                  <span className="react">react 70%</span>
-                </div>
-                <div className="progress-bar">
-                  <span className="phython">Phython 50%</span>
-                </div>
-                <div className="progress-bar">
-                  <span className="git">Version Control Git & GitHub 95%</span>
-                </div>
-                <div className="progress-bar">
-                  <span className="sql">SQL 60%</span>
-                </div>
+                {SkillsData.map((skill, index) => {
+                  return (
+                    <div className="bar" key={skill.id}>
+                      <span className="skill">{skill.SkillName}</span>
+                      <div className="prog">
+                        <div
+                          className="inner-prog"
+                          style={{ width: skill.progress }}
+                        >
+                          {skill.progress}
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>
