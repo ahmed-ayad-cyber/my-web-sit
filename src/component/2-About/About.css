@@ -1,0 +1,26 @@
+.about {
+    background-color: darkgray;
+}
+.text-about {
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.text-about h1 {
+    white-space: nowrap;
+}
+.about .download {
+    text-align: center;
+}
+.about .download a {
+    text-decoration: none;
+    /* border: 2px solid black; */
+        color: white;
+    background-color: black;
+}
+@media (max-width: 768px) {
+    .text-about {
+        flex-direction: column;
+        text-align: center;
+        font-size: 3vw;
+    }
+}
