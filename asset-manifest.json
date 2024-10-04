@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ahmed-ayad-cyber/my-web-sit.git/static/css/main.61662d1f.css",
+    "main.js": "/ahmed-ayad-cyber/my-web-sit.git/static/js/main.7301dd1c.js",
+    "static/media/medo.jpg": "/ahmed-ayad-cyber/my-web-sit.git/static/media/medo.d56935b624c3f4f9ff50.jpg",
+    "static/media/leon.png": "/ahmed-ayad-cyber/my-web-sit.git/static/media/leon.6b56422a0081b7bb5dfd.png",
+    "static/media/ahmed.jpg": "/ahmed-ayad-cyber/my-web-sit.git/static/media/ahmed.de2cae5d0ca823b4b305.jpg",
+    "static/media/kasper.jpg": "/ahmed-ayad-cyber/my-web-sit.git/static/media/kasper.dd496a192f6b59b50e47.jpg",
+    "index.html": "/ahmed-ayad-cyber/my-web-sit.git/index.html",
+    "main.61662d1f.css.map": "/ahmed-ayad-cyber/my-web-sit.git/static/css/main.61662d1f.css.map",
+    "main.7301dd1c.js.map": "/ahmed-ayad-cyber/my-web-sit.git/static/js/main.7301dd1c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61662d1f.css",
+    "static/js/main.7301dd1c.js"
+  ]
+}
